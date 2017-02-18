@@ -16,6 +16,8 @@ pushd ~/.vim
 git submodule init
 popd
 
+sudo pip install git+git://github.com/powerline/powerline
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cp $DIR/.vimrc ~/.vimrc
 
