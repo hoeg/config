@@ -14,6 +14,7 @@ git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vi
 git submodule add https://github.com/tmhedberg/SimpylFold.git ~/.vim/bundle/SimpylFold
 pushd ~/.vim
 git submodule init
+git clone https://github.com/klen/python-mode.git
 popd
 
 sudo pip install git+git://github.com/powerline/powerline

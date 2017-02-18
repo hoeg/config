@@ -1,5 +1,6 @@
 "Setup Pathogen
 execute pathogen#infect()
+call pathogen#helptags()
 
 "Colorscheme
 syntax on
@@ -7,6 +8,7 @@ set background=dark
 colorscheme solarized
 
 filetype plugin indent on
+syntax on
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>
