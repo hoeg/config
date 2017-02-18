@@ -16,3 +16,7 @@ nnoremap <C-H> <C-W><C-H>
 
 "linenumber
 set nu
+
+"vim powerline
+set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+set laststatus=2
