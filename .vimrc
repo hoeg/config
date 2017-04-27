@@ -22,3 +22,7 @@ set nu
 "vim powerline
 set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
 set laststatus=2
+
+"tabs to spaces - width 2
+:set expandtab
+:set tabstop=2
