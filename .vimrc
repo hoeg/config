@@ -26,3 +26,5 @@ set laststatus=2
 "tabs to spaces - width 2
 :set expandtab
 :set tabstop=2
+
+set pastetoggle=<F3>
