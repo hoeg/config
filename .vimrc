@@ -27,4 +27,4 @@ set laststatus=2
 :set expandtab
 :set tabstop=2
 
-set pastetoggle=<F3>
+:set copyindent
