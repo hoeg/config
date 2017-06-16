@@ -28,3 +28,6 @@ set laststatus=2
 :set tabstop=2
 
 :set copyindent
+
+"Fix that pastin...
+:set clipboard=unnamed
