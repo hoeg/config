@@ -8,7 +8,6 @@ set background=dark
 colorscheme solarized
 
 filetype plugin indent on
-syntax on
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>
