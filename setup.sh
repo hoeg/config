@@ -22,6 +22,7 @@ sudo pip install git+git://github.com/powerline/powerline
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cp $DIR/.vimrc ~/.vimrc
+cp $DOR/.tmux.conf ~/.tmux.conf
 
 #zsh
 sudo apt-get install zsh
