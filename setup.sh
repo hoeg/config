@@ -2,7 +2,7 @@
 
 sudo apt-get install curl
 
-sudo apt-get install vim-python-jedi
+sudo apt-get install -y vim-python-jedi
 vim-addons install python-jedi
 
 # vim setup
@@ -25,8 +25,8 @@ cp $DIR/.vimrc ~/.vimrc
 cp $DIR/.tmux.conf ~/.tmux.conf
 
 #zsh
-sudo apt-get install zsh
+sudo apt-get install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 #development tools
-sudo apt-get install ctags
+sudo apt-get install -y ctags
